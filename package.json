@@ -4,7 +4,8 @@
   "description": "bootstrap application setup test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,15 @@
   "author": "Phil",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect": "^3.5.0",
+    "d3": "^4.4.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongodb": "^2.2.11",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {}
 }
