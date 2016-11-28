@@ -2,6 +2,7 @@
        crypto = require('crypto'),
        Schema = mongoose.Schema;
    var UserSchema = new Schema({
+     
      firstName: String,
      lastName: String,
      email: {
