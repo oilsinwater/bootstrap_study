@@ -1,5 +1,5 @@
  var users = require('../../app/controllers/users.server.controller'),
-       passport = require('passport');
+  passport = require('passport');
 
    module.exports = function(app) {
      app.route('/signup')
@@ -14,5 +14,5 @@
           failureFlash: true
         }));
 
-     app.get('/signout', users.signout);
+    app.get('/signout', users.signout);
    };
